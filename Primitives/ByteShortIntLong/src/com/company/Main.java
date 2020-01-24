@@ -15,7 +15,7 @@ public class Main {
         short myShort = 30100;
 
         int myInt = 1245843;
-        long myLong = (long) (50000 + (10 * (myByte + myShort + myInt)));
+        long myLong = 50000L + (10L * (myByte + myShort + myInt));
         System.out.println(myLong);
     }
 }

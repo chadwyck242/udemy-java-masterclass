@@ -3,7 +3,7 @@ package com.chadwyck242;
 public class Main {
 
     public static void main(String[] args) {
-	    // Code for the Operator and Operator Precedence Challenge
+	// Code for the Operator and Operator Precedence Challenge
         // Video 39 of Section 3: First Steps
 
         double firstValue = 20.00;

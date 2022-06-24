@@ -6,6 +6,8 @@ public class Main {
         double kilometersPerHour = -5.114;
         SpeedConverter.printConversion(kilometersPerHour);
 
+        MegaBytesConverter.printMegaBytesAndKiloBytes(-1024);
+
 
     }
 }

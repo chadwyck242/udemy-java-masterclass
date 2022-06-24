@@ -8,6 +8,8 @@ public class Main {
 
         MegaBytesConverter.printMegaBytesAndKiloBytes(-1024);
 
+        BarkingDog.shouldWakeUp(false, 2);
+
 
     }
 }

@@ -9,7 +9,7 @@ public class Main {
         // Testing MegaBytes converter
         MegaBytesConverter.printMegaBytesAndKiloBytes(-1024);
 
-        // Testing BarkingDog wake up call
+        // Testing BarkingDog wake-up call
         boolean wakeUp = BarkingDog.shouldWakeUp(false, 2);
         System.out.println("Should wake up: " + wakeUp);
 

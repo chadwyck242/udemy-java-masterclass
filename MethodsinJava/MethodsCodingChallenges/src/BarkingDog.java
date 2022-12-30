@@ -7,11 +7,7 @@ public class BarkingDog {
         if(hourOfDay < 0 || hourOfDay > 23){
             wakeUp =false; // Must be in range 0-23 hours
         }
-        else if((hourOfDay < 8 || hourOfDay > 22) && barking){
-            wakeUp = true;
-        } else {
-            wakeUp = false;
-        }
+        else wakeUp = (hourOfDay < 8 || hourOfDay > 22) && barking;
 
         return wakeUp;
     }

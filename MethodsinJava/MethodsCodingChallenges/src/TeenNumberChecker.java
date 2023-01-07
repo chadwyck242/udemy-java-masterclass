@@ -13,11 +13,7 @@ public class TeenNumberChecker {
         else if(age2 >= 13 && age2 <= 19) {
             isTeen = true;
         }
-        else if(age3 >= 13 && age3 <= 19) {
-            isTeen = true;
-        } else {
-            isTeen = false;
-        }
+        else isTeen = age3 >= 13 && age3 <= 19;
 
         return isTeen;
     }
@@ -28,11 +24,7 @@ public class TeenNumberChecker {
         boolean isTeen;
 
         // Check if age is in required age range to be a teen
-        if(age >= 13 && age <= 19) {
-            isTeen = true;
-        } else {
-            isTeen = false;
-        }
+        isTeen = age >= 13 && age <= 19;
 
         return isTeen;
     }

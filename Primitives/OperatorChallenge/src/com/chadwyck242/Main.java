@@ -13,7 +13,7 @@ public class Main {
 
         double fourthValue = thirdValue % 40.00d;
 
-        boolean fifthValue = (fourthValue == 0) ? true : false;
+        boolean fifthValue = fourthValue == 0;
 
         System.out.println(fifthValue);
 

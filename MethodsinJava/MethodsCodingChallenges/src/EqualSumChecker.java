@@ -9,12 +9,7 @@ public class EqualSumChecker {
         firstTwoSum = num1 + num2;
 
         // Check if the sum is equal to the third parameter
-        if(firstTwoSum == num3) {
-            equalSum = true;
-        }
-        else {
-            equalSum = false;
-        }
+        equalSum = firstTwoSum == num3;
 
         return equalSum;
     }

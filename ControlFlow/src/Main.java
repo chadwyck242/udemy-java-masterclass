@@ -11,6 +11,12 @@ public class Main {
         // Test sumOdd method
         System.out.println(SumOddRange.sumOdd(2, 15));
 
+        // Check isPalindrome method
+        boolean isPalindrome = NumberPalindrome.isPalindrome(-1221);
+        System.out.println("Is this number a palindrome? " + isPalindrome);
+
+        // Test sumFirstAndLastDigit method
+        System.out.println("The sum of the first and last digits is: " + FirstandLastDigitSum.sumFirstAndLastDigit(5567));
 
     }
 }

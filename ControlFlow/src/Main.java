@@ -18,5 +18,11 @@ public class Main {
         // Test sumFirstAndLastDigit method
         System.out.println("The sum of the first and last digits is: " + FirstandLastDigitSum.sumFirstAndLastDigit(5567));
 
+        // Test getEvenDigitSum
+        System.out.println("The sum of the even digits in number is: " + EvenDigitSum.getEvenDigitSum(122345));
+
+        // Testing hasSharedDigit method
+        System.out.println("The two numbers share a digit: " + SharedDigit.hasSharedDigit(9, 9));
+
     }
 }

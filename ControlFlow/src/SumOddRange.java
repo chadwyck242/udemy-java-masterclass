@@ -26,7 +26,7 @@ public class SumOddRange {
         if (end < start) {
             return -1;
         }
-        else if (start <= 0 || end <= 0) {
+        else if (start <= 0) {
             return -1;
         }
 

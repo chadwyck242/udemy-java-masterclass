@@ -26,7 +26,7 @@ public class NumberPalindrome {
 
         // Check if the two numbers are equal and return true or false accordingly
         reverseNumber = reverseNumber * signSwitch; // Switch the signs as needed
-        
+
         return number == reverseNumber;
     }
 }

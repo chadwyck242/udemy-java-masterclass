@@ -24,5 +24,8 @@ public class Main {
         // Testing hasSharedDigit method
         System.out.println("The two numbers share a digit: " + SharedDigit.hasSharedDigit(9, 9));
 
+        // Testing hasSameLastDigit method
+        System.out.println("Do at least two of the numbers have the same last digit? " + LastDigitChecker.hasSameLastDigit(22, 23, 34));
+
     }
 }

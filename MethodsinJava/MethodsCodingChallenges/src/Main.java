@@ -25,6 +25,10 @@ public class Main {
         boolean equalSum = EqualSumChecker.hasEqualSum(1, -1, 0);
         System.out.println("Is it an equal sum? " + equalSum);
 
+        // Test NumberPalindrome
+        boolean checkPalindrome = NumberPalindrome.isPalindrome(-1221);
+        System.out.println("Is this number a palindrome? " + checkPalindrome);
+
 
     }
 }

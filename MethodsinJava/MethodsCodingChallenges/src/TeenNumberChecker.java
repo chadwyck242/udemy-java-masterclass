@@ -23,7 +23,7 @@ public class TeenNumberChecker {
         // Initialize boolean variable
         boolean isTeen;
 
-        // Check if age is in required age range to be a teen
+        // Check if age is in the required age range to be a teen
         isTeen = age >= 13 && age <= 19;
 
         return isTeen;

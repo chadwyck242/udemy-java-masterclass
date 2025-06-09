@@ -1,5 +1,5 @@
-# Java Masterclass
+# Java Masterclass 2025 Exercises
 
-## Repository for Tim Buchalka's Java Programming Masterclass for Software Developers. Lessons, code examples and challenges saved here.
+## Repository for Tim Buchalka's Java Programming Masterclass2025. My solutions to challenges and exercises are saved here.
 
-### Course can be found at [Java Programming Masterclass for Software Developers](https://www.udemy.com/course/java-the-complete-java-developer-course/)
+### Course can be found at [Java Programming Masterclass 2025](https://www.udemy.com/course/java-the-complete-java-developer-course/)
